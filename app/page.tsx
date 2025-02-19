@@ -23,9 +23,12 @@ export default function Home() {
 
         {/* PREVIEW */}
         <h1>Preview</h1>
+        <div className='grid grid-cols-12'>
         <div
+        className='grid col-span-12'
           dangerouslySetInnerHTML={{ __html: content as string }}
-        />
+          />
+        </div>
       </div>
     </div>
   );
