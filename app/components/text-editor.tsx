@@ -49,6 +49,9 @@ import {
 } from "reactjs-tiptap-editor";
 import { Dispatch, SetStateAction, useEffect } from "react";
 
+import 'reactjs-tiptap-editor/style.css'
+import 'katex/dist/katex.min.css'
+
 function debounce(func: any, wait: number) {
   let timeout: NodeJS.Timeout;
   return function (...args: any[]) {
